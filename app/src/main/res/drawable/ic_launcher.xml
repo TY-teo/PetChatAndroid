@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#FF6B9D"
+        android:pathData="M0,0h108v108h-108z"/>
+    
+    <!-- Paw Print -->
+    <group
+        android:translateX="30"
+        android:translateY="30">
+        
+        <!-- Main pad -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M24,38 C24,38 19,33 19,28 C19,23 23,19 28,19 C33,19 37,23 37,28 C37,33 32,38 32,38 C32,38 30,40 28,40 C26,40 24,38 24,38 Z"/>
+        
+        <!-- Top left toe -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M15,18 C15,15 17,13 20,13 C23,13 25,15 25,18 C25,21 23,23 20,23 C17,23 15,21 15,18 Z"/>
+        
+        <!-- Top right toe -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M31,18 C31,15 33,13 36,13 C39,13 41,15 41,18 C41,21 39,23 36,23 C33,23 31,21 31,18 Z"/>
+        
+        <!-- Left toe -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M10,28 C10,25 12,23 15,23 C18,23 20,25 20,28 C20,31 18,33 15,33 C12,33 10,31 10,28 Z"/>
+        
+        <!-- Right toe -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M36,28 C36,25 38,23 41,23 C44,23 46,25 46,28 C46,31 44,33 41,33 C38,33 36,31 36,28 Z"/>
+    </group>
+</vector>

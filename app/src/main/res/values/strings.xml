@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">PetChat</string>
+    
+    <!-- 底部导航标题 -->
+    <string name="title_chat">对话</string>
+    <string name="title_location">定位</string>
+    <string name="title_social">动态</string>
+    <string name="title_pet">我的宠物</string>
+    
+    <!-- 对话界面 -->
+    <string name="chat_title">与小白对话</string>
+    <string name="input_hint">输入消息...</string>
+    <string name="voice_tip">按住说话</string>
+    <string name="voice_cancel_tip">上滑取消</string>
+    <string name="voice_recording">正在录音...</string>
+    <string name="voice_release_cancel">松开取消</string>
+    
+    <!-- 定位界面 -->
+    <string name="location_title">小白的位置</string>
+    <string name="current_location">当前位置</string>
+    <string name="fence_settings">电子围栏设置</string>
+    <string name="activity_alerts">活动警告</string>
+    <string name="activity_track">今日活动轨迹</string>
+    <string name="add_fence">+ 添加新围栏</string>
+    
+    <!-- 动态界面 -->
+    <string name="social_title">宠物动态</string>
+    <string name="today_moments">今日动态</string>
+    <string name="likes_count">获赞数</string>
+    <string name="new_messages">新消息</string>
+    
+    <!-- 我的宠物界面 -->
+    <string name="pet_title">我的宠物</string>
+    <string name="basic_info">基本信息</string>
+    <string name="daily_care">日常照护</string>
+    <string name="smart_device">智能设备</string>
+    <string name="data_analysis">数据分析</string>
+    <string name="other_functions">其他功能</string>
+    
+    <!-- 功能按钮 -->
+    <string name="edit_profile">编辑资料</string>
+    <string name="pet_album">宠物相册</string>
+    <string name="growth_record">成长记录</string>
+    <string name="medical_record">病历档案</string>
+    <string name="feeding_plan">喂食计划</string>
+    <string name="exercise_plan">运动计划</string>
+    <string name="grooming">美容护理</string>
+    <string name="vaccine_schedule">疫苗计划</string>
+    <string name="device_settings">铭牌设置</string>
+    <string name="device_status">连接状态</string>
+    <string name="voice_training">语音训练</string>
+    <string name="firmware_update">固件更新</string>
+    <string name="behavior_analysis">行为分析</string>
+    <string name="emotion_report">情绪报告</string>
+    <string name="health_report">健康报告</string>
+    <string name="activity_report">活动统计</string>
+    <string name="emergency_contact">紧急联系</string>
+    <string name="insurance">宠物保险</string>
+    <string name="notifications">通知设置</string>
+    <string name="backup">数据备份</string>
+    
+    <!-- 提示信息 -->
+    <string name="function_developing">功能开发中...</string>
+    <string name="loading">加载中...</string>
+    <string name="copied">已复制到剪贴板</string>
+    <string name="feedback_submitted">反馈已提交，感谢您的建议！</string>
+    <string name="voice_cancelled">已取消录音</string>
+</resources>

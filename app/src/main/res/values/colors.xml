@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FF6B9D</color>
+    <color name="light_pink">#FECFEF</color>
+    <color name="purple">#6C5CE7</color>
+    <color name="light_purple">#A29BFE</color>
+    <color name="gray">#666666</color>
+    <color name="light_gray">#999999</color>
+    <color name="background_gray">#F8F9FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#F0F0F0</color>
+    <color name="warning">#FFC107</color>
+    <color name="warning_background">#FFF3CD</color>
+    <color name="info">#2196F3</color>
+    <color name="info_background">#E7F3FF</color>
+    <color name="success">#4CAF50</color>
+    <color name="online_green">#4CAF50</color>
+</resources>

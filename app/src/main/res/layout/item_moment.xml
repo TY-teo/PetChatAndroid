@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- 头像 -->
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/user_avatar_background"
+        android:gravity="center"
+        android:text="👩"
+        android:textSize="20sp"
+        android:layout_marginRight="16dp" />
+
+    <!-- 内容区域 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- 用户名和时间 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张小美"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2小时前"
+                android:textSize="12sp"
+                android:textColor="#999999" />
+        </LinearLayout>
+
+        <!-- 动态内容 -->
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="小白今天学会了新技能，会握手了！太聪明了~"
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="2dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 图片区域 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/image_placeholder_background"
+                android:gravity="center"
+                android:text="🐕‍🦺"
+                android:textSize="24sp"
+                android:layout_marginRight="8dp" />
+        </LinearLayout>
+
+        <!-- 操作按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <!-- 点赞 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginRight="20dp">
+
+                <ImageButton
+                    android:id="@+id/like_button"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_heart_outline"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:scaleType="centerInside"
+                    android:tint="#666666" />
+
+                <TextView
+                    android:id="@+id/like_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:textSize="14sp"
+                    android:textColor="#666666"
+                    android:layout_marginLeft="4dp" />
+            </LinearLayout>
+
+            <!-- 评论 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginRight="20dp">
+
+                <ImageButton
+                    android:id="@+id/comment_button"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_comment"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:scaleType="centerInside"
+                    android:tint="#666666" />
+
+                <TextView
+                    android:id="@+id/comment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="14sp"
+                    android:textColor="#666666"
+                    android:layout_marginLeft="4dp" />
+            </LinearLayout>
+
+            <!-- 分享 -->
+            <ImageButton
+                android:id="@+id/share_button"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_share"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerInside"
+                android:tint="#666666" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
